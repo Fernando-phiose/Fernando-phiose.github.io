@@ -1,0 +1,148 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #1b1b2f;
+    color: #f5f5f5;
+}
+
+/* Header */
+header {
+    background-color: #162447;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+header nav ul li a {
+    color: #f5f5f5;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #e43f5a;
+}
+
+.banner h1 {
+    font-size: 2.5rem;
+}
+
+.banner p {
+    font-size: 1.2rem;
+    color: #e43f5a;
+}
+
+/* Cookies */
+#cookies {
+    background-color: #e43f5a;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 5px;
+}
+
+/* Sección Sobre Mí */
+#sobre-mi {
+    padding: 60px;
+    text-align: center;
+}
+
+.tarjeta {
+    background-color: #0f3460;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.social-icons a {
+    margin: 10px;
+    color: #f5f5f5;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #e43f5a;
+}
+
+/* Galería de Proyectos */
+.galeria {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.proyecto {
+    background-color: #1f4068;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+}
+
+/* Habilidades */
+.skills .skill {
+    margin: 20px;
+}
+
+.barra {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+.progreso {
+    height: 20px;
+    border-radius: 5px;
+}
+
+.progreso.html { width: 90%; background-color: #e43f5a; }
+.progreso.css { width: 80%; background-color: #0f3460; }
+.progreso.js { width: 70%; background-color: #1b9aaa; }
+
+/* Formulario de Contacto */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+}
+
+form input, form textarea, form button {
+    margin: 10px 0;
+    padding: 15px;
+    background-color: #162447;
+    color: #f5f5f5;
+    border: none;
+}
+
+form button {
+    background-color: #e43f5a;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #1f4068;
+}
+
+/* Pie de página */
+footer {
+    background-color: #162447;
+    text-align: center;
+    padding: 15px;
+    color: #f5f5f5;
+}
